@@ -41,6 +41,10 @@ AWS EC2 Deployment of Static Application in Ubuntu
 
         mv * /var/www/html
  
+10. Go to the Security part of your instance and click the security group link
     
+     <img width="1166" alt="Screenshot 2023-06-21 at 10 05 31 PM" src="https://github.com/maruakinu/AWS-EC2-Deploy-Static-App/assets/100325935/1271e4f3-2e58-4a15-be10-3068b114e90d">
+
+        
        
         
