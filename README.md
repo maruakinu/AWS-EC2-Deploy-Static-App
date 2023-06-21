@@ -30,20 +30,20 @@ AWS EC2 Deployment of Static Application in Ubuntu
 
 8. Create directory, move to that directory and use wget to download files
 
-      mkdir temp
-      cd temp
-      wget https://www.free-css.com/assets/files/free-css-templates/download/page292/settle.zip
+       mkdir temp
+       cd temp
+       wget https://www.free-css.com/assets/files/free-css-templates/download/page292/settle.zip
 
 9. Install unzip, unzip the file and Go to the directory of the file
 
-      sudo apt-get install unzip
-      unzip settle.zip
-      cd settle
+       sudo apt-get install unzip
+       unzip settle.zip
+       cd settle
 
 11. Move the file to /var/www/html
 
-    mv * /var/www/html
-
+       mv * /var/www/html
+ 
     
        
         
