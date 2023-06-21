@@ -10,9 +10,22 @@ AWS EC2 Deployment of Static Application in Ubuntu
   <img width="804" alt="Screenshot 2023-06-21 at 9 41 33 PM" src="https://github.com/maruakinu/AWS-EC2-Deploy-Static-App/assets/100325935/db8759a5-634d-489c-9105-96762fb0540a">
 
 
-3. Changing to root user and update OS
+3. Changing to root user and update latest packages on the system
 
         sudo su -
         sudo apt update
 
-5. 
+5. Installing Apache Web Server
+   
+        sudo apt install apache2 -y
+
+6. Checking the status of apache web server and Start the apache
+
+        sudo systemctl status apache2
+        sudo systemctl start apache2
+
+7. Enable Apache to automatically start if the system restarted
+
+       sudo systemctl enable apache2
+   
+        
