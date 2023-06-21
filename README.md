@@ -1,2 +1,2 @@
-AWS EC2 Deployment of Static Application 
+AWS EC2 Deployment of Static Application in Ubuntu
 
