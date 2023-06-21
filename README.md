@@ -49,8 +49,7 @@ AWS EC2 Deployment of Static Application in Ubuntu
     
    <img width="1265" alt="Screenshot 2023-06-21 at 10 08 18 PM" src="https://github.com/maruakinu/AWS-EC2-Deploy-Static-App/assets/100325935/daab0466-dac4-47c8-9d2b-50060a6106e2">
 
-    
-
+12. Type the public ip address of your instance to the browser
         
        
         
