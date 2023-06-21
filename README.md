@@ -15,32 +15,29 @@ AWS EC2 Deployment of Static Application in Ubuntu
         sudo su -
         sudo apt update
 
-5. Installing Apache Web Server
+5. Installing Apache Web Server, checking the status of apache web server and Start the apache
    
         sudo apt install apache2 -y
-
-6. Checking the status of apache web server and Start the apache
-
         sudo systemctl status apache2
         sudo systemctl start apache2
 
-7. Enable Apache to automatically start if the system restarted
+6. Enable Apache to automatically start if the system restarted
 
        sudo systemctl enable apache2
 
-8. Create directory, move to that directory and use wget to download files
+7. Create directory, move to that directory and use wget to download files
 
        mkdir temp
        cd temp
        wget https://www.free-css.com/assets/files/free-css-templates/download/page292/settle.zip
 
-9. Install unzip, unzip the file and Go to the directory of the file
+8. Install unzip, unzip the file and Go to the directory of the file
 
        sudo apt-get install unzip
        unzip settle.zip
        cd settle
 
-11. Move the file to /var/www/html
+9. Move the file to /var/www/html
 
         mv * /var/www/html
  
