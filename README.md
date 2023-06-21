@@ -42,7 +42,7 @@ AWS EC2 Deployment of Static Application in Ubuntu
 
 11. Move the file to /var/www/html
 
-       mv * /var/www/html
+        mv * /var/www/html
  
     
        
