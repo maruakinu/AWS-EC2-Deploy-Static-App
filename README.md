@@ -34,13 +34,13 @@ The cloud is perfect for hosting static websites that only include HTML, CSS, an
 
        mkdir temp
        cd temp
-       wget https://www.free-css.com/assets/files/free-css-templates/download/page292/settle.zip
+       wget https://github.com/maruakinu/AWS-EC2-Deploy-Static-App/archive/refs/heads/main.zip
 
 8. Install unzip, unzip the file and Go to the directory of the file
 
        sudo apt-get install unzip
-       unzip settle.zip
-       cd settle
+       unzip main.zip
+       cd main
 
 9. Move the file to /var/www/html
 
